@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "HelloWorldSF", "HelloWorldSF\HelloWorldSF.sfproj", "{EBA980F6-B7ED-4A74-82E7-C0EC6CDD944C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldActor", "HelloWorldActor\HelloWorldActor.csproj", "{D7E32B79-B008-41B2-B44C-C15248CF247C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldActor.Interfaces", "HelloWorldActor.Interfaces\HelloWorldActor.Interfaces.csproj", "{2BC846C2-FC75-498C-BC8B-A5BBDF032AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldActorInvokerService", "HelloWorldActorInvokerService\HelloWorldActorInvokerService.csproj", "{C34C5543-2E21-4168-ABD0-839AC1338553}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBA980F6-B7ED-4A74-82E7-C0EC6CDD944C}.Debug|x64.ActiveCfg = Debug|x64
+		{EBA980F6-B7ED-4A74-82E7-C0EC6CDD944C}.Debug|x64.Build.0 = Debug|x64
+		{EBA980F6-B7ED-4A74-82E7-C0EC6CDD944C}.Debug|x64.Deploy.0 = Debug|x64
+		{EBA980F6-B7ED-4A74-82E7-C0EC6CDD944C}.Release|x64.ActiveCfg = Release|x64
+		{EBA980F6-B7ED-4A74-82E7-C0EC6CDD944C}.Release|x64.Build.0 = Release|x64
+		{EBA980F6-B7ED-4A74-82E7-C0EC6CDD944C}.Release|x64.Deploy.0 = Release|x64
+		{D7E32B79-B008-41B2-B44C-C15248CF247C}.Debug|x64.ActiveCfg = Debug|x64
+		{D7E32B79-B008-41B2-B44C-C15248CF247C}.Debug|x64.Build.0 = Debug|x64
+		{D7E32B79-B008-41B2-B44C-C15248CF247C}.Release|x64.ActiveCfg = Release|x64
+		{D7E32B79-B008-41B2-B44C-C15248CF247C}.Release|x64.Build.0 = Release|x64
+		{2BC846C2-FC75-498C-BC8B-A5BBDF032AC9}.Debug|x64.ActiveCfg = Debug|x64
+		{2BC846C2-FC75-498C-BC8B-A5BBDF032AC9}.Debug|x64.Build.0 = Debug|x64
+		{2BC846C2-FC75-498C-BC8B-A5BBDF032AC9}.Release|x64.ActiveCfg = Release|x64
+		{2BC846C2-FC75-498C-BC8B-A5BBDF032AC9}.Release|x64.Build.0 = Release|x64
+		{C34C5543-2E21-4168-ABD0-839AC1338553}.Debug|x64.ActiveCfg = Debug|x64
+		{C34C5543-2E21-4168-ABD0-839AC1338553}.Debug|x64.Build.0 = Debug|x64
+		{C34C5543-2E21-4168-ABD0-839AC1338553}.Release|x64.ActiveCfg = Release|x64
+		{C34C5543-2E21-4168-ABD0-839AC1338553}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
